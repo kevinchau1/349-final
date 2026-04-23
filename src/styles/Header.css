@@ -1,0 +1,41 @@
+.header {
+  background-color: #4a90a4;
+  padding: 14px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header h1 {
+  color: white;
+  font-size: 20px;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.header-btn {
+  background-color: white;
+  color: #4a90a4;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.header-btn-outline {
+  background-color: transparent;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  padding: 7px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 13px;
+}

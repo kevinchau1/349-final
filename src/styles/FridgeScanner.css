@@ -1,0 +1,58 @@
+.fridge-scanner {
+  border: 2px dashed #aaa;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  margin-bottom: 16px;
+  background-color: #fafafa;
+}
+
+.fridge-scanner-preview img {
+  width: 100%;
+  max-height: 180px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.fridge-scanner-scanning {
+  color: #4a90a4;
+  font-size: 14px;
+}
+
+.fridge-scanner-reupload {
+  cursor: pointer;
+  color: #4a90a4;
+  font-size: 13px;
+  text-decoration: underline;
+}
+
+.fridge-scanner-empty {
+  cursor: pointer;
+  display: block;
+}
+
+.fridge-scanner-empty .icon {
+  font-size: 28px;
+}
+
+.fridge-scanner-empty .title {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.fridge-scanner-empty .subtitle {
+  font-size: 12px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.fridge-scanner-empty .upload-btn {
+  background-color: #4a90a4;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 5px;
+  font-size: 13px;
+  display: inline-block;
+}

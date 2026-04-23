@@ -1,0 +1,13 @@
+.spinner {
+  text-align: center;
+  padding: 30px;
+}
+
+.spinner .spinner-icon {
+  font-size: 32px;
+}
+
+.spinner p {
+  color: #555;
+  margin-top: 8px;
+}

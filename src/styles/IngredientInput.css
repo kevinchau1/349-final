@@ -1,0 +1,68 @@
+.ingredient-input {
+  margin-bottom: 16px;
+}
+
+.ingredient-input label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.ingredient-input-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.ingredient-input-row input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.ingredient-input-row button {
+  background-color: #4a90a4;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.ingredient-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.ingredient-tag {
+  background-color: #e0f0f5;
+  border: 1px solid #4a90a4;
+  border-radius: 4px;
+  padding: 4px 10px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.ingredient-tag-remove {
+  cursor: pointer;
+  color: #999;
+  font-weight: bold;
+}
+
+.clear-all-btn {
+  margin-top: 8px;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  padding: 4px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  color: #888;
+}

@@ -1,0 +1,17 @@
+.footer {
+  background-color: #4a90a4;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+.footer p {
+  margin-bottom: 4px;
+}
+
+.footer .footer-sub {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.75);
+}

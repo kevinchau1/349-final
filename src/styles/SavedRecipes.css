@@ -1,0 +1,89 @@
+.saved-recipes {
+  max-width: 650px;
+  margin: 24px auto;
+  padding: 0 15px;
+}
+
+.saved-recipes-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.saved-recipes-header h2 {
+  font-size: 18px;
+}
+
+.saved-back-btn {
+  background: none;
+  border: 1px solid #ccc;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.saved-empty {
+  text-align: center;
+  padding: 40px;
+  color: #888;
+}
+
+.saved-empty .empty-icon {
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+.saved-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.saved-recipe-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.saved-recipe-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.saved-recipe-card-header h3 {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.saved-recipe-meta {
+  font-size: 12px;
+  color: #888;
+}
+
+.saved-remove-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #bbb;
+  font-size: 18px;
+}
+
+.saved-recipe-description {
+  font-size: 13px;
+  color: #666;
+  margin: 8px 0 12px;
+}
+
+.saved-cook-btn {
+  background-color: #4a90a4;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 13px;
+}
