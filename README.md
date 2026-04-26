@@ -10,11 +10,11 @@ A React-based application using OpenAI's API to generate recipes using ingredien
 ### 1. Clone the repository
 ```bash
 git clone <your-repo-url>
-cd fridge-roulette```
+cd fridge-roulette
 
 ### 2. Install dependencies
-```npm install```
+```npm install
 
 3. Set up environment variables
 Create a .env file in the root directory and add your API key:
-```REACT_APP_OPENAI_API_KEY=your_api_key_here```
+```REACT_APP_OPENAI_API_KEY=your_api_key_here
