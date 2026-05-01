@@ -11,7 +11,7 @@ function Header({ onSavedClick, onAboutClick, showBack }) {
           </button>
         )}
         <button className="header-btn" onClick={onSavedClick}>
-          {showBack ? "← Back" : "Saved"}
+          {showBack ? "Back" : "Saved"}
         </button>
       </div>
     </div>

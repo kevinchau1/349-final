@@ -1,4 +1,4 @@
-import '../styles/Spinner.css'
+import "../styles/Spinner.css";
 
 function Spinner() {
   return (
@@ -6,7 +6,7 @@ function Spinner() {
       <p className="spinner-icon">⏳</p>
       <p>Generating your recipe...</p>
     </div>
-  )
+  );
 }
 
-export default Spinner
+export default Spinner;

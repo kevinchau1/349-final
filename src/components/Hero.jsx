@@ -12,10 +12,7 @@ function Hero() {
       <div className="hero-overlay" />
       <div className="hero-content">
         <h1>Fridge Roulette</h1>
-        <p>
-          Don't know what to cook? Just tell us what's in your fridge and we'll
-          come up with something delicious.
-        </p>
+        <p>Click the button to get started.</p>
         <button className="hero-scroll-btn" onClick={scrollToApp}>
           Get Cooking
         </button>

@@ -80,7 +80,7 @@ function FridgeScanner({ onIngredientsFound }) {
           <img src={preview} alt="fridge" />
           {scanning ? (
             <p className="fridge-scanner-scanning">
-              🔍 Scanning for ingredients...
+              Scanning for ingredients...
             </p>
           ) : (
             <label className="fridge-scanner-reupload">
