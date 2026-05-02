@@ -6,7 +6,7 @@ A React-based application using OpenAI's API to generate recipes using ingredien
 How to Install and Run
 
 ## 1. Clone the repository
-`git clone <your-repo-url>`
+`git clone`
 `cd fridge-roulette`
 
 ## 2. Install dependencies
