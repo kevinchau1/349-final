@@ -17,7 +17,7 @@
 
 .about-back-btn {
   background: none;
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc;
   padding: 6px 12px;
   border-radius: 5px;
   cursor: pointer;
@@ -26,7 +26,7 @@
 
 .about-section {
   background-color: white;
-  border: 1px solid #ddd;
+  border: 1px solid #dddddd;
   border-radius: 8px;
   padding: 20px;
   margin-bottom: 16px;
@@ -36,7 +36,7 @@
   font-size: 16px;
   margin-bottom: 12px;
   color: #4a90a4;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #eeeeee;
   padding-bottom: 8px;
 }
 
@@ -72,11 +72,11 @@
 
 .credit-info strong {
   display: block;
-  color: #333;
+  color: #333333;
   margin-bottom: 2px;
 }
 
 .credit-info span {
-  color: #888;
+  color: #888888;
   font-size: 13px;
 }
