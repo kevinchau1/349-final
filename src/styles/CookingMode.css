@@ -22,7 +22,7 @@
 
 .cooking-step-counter {
   font-size: 13px;
-  color: #777;
+  color: #777777;
 }
 
 .cooking-progress-bar {
@@ -41,7 +41,7 @@
 
 .cooking-step-box {
   background-color: white;
-  border: 1px solid #ddd;
+  border: 1px solid #dddddd;
   border-radius: 8px;
   padding: 30px 24px;
   min-height: 200px;
@@ -55,7 +55,7 @@
   font-size: 18px;
   line-height: 1.7;
   text-align: center;
-  color: #333;
+  color: #333333;
 }
 
 .cooking-ingredients {
@@ -64,7 +64,7 @@
 
 .cooking-ingredients-label {
   font-size: 12px;
-  color: #888;
+  color: #888888;
   margin-bottom: 8px;
   text-transform: uppercase;
 }
@@ -81,7 +81,7 @@
   border-radius: 4px;
   padding: 3px 8px;
   font-size: 12px;
-  color: #555;
+  color: #555555;
 }
 
 .cooking-nav {
@@ -99,7 +99,7 @@
 }
 
 .cooking-back-btn:disabled {
-  color: #bbb;
+  color: #bbbbbb;
   cursor: not-allowed;
 }
 
@@ -134,7 +134,7 @@
 }
 
 .cooking-done p {
-  color: #666;
+  color: #666666;
   margin-bottom: 24px;
 }
 
