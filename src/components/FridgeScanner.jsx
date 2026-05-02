@@ -74,7 +74,12 @@ function FridgeScanner({ onIngredientsFound }) {
   }
 
   return (
-    <div className="fridge-scanner">
+    <div
+      className="fridge-scanner"
+      style={{
+        padding: "100px",
+      }}
+    >
       {preview ? (
         <div className="fridge-scanner-preview">
           <img src={preview} alt="fridge" />
@@ -97,11 +102,24 @@ function FridgeScanner({ onIngredientsFound }) {
       ) : (
         <label className="fridge-scanner-empty">
           <p className="icon"></p>
-          <p className="title">Scan your fridge</p>
-          <p className="subtitle">
-            Upload a photo and we'll find your ingredients
+          <p
+            className="title"
+            style={{
+              fontSize: "30px",
+              padding: "30px",
+            }}
+          >
+            Scan your fridge
           </p>
-          <span className="upload-btn">Choose Photo</span>
+          <span
+            className="upload-btn"
+            style={{
+              padding: "20px",
+              width: "200px",
+            }}
+          >
+            Choose Photo
+          </span>
           <input
             type="file"
             accept="image/*"

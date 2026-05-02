@@ -1,10 +1,10 @@
 .fridge-scanner {
-  border: 2px dashed #aaa;
+  border: 2px #691515;
   border-radius: 8px;
   padding: 16px;
   text-align: center;
   margin-bottom: 16px;
-  background-color: #fafafa;
+  background-color: #ffffff;
 }
 
 .fridge-scanner-preview img {

@@ -6,7 +6,7 @@ function RecipeCard({ recipe, onRespin, onSave, onStartCooking }) {
       <div className="recipe-card-header">
         <h2>{recipe.name}</h2>
         <button className="save-btn" onClick={onSave} title="Save recipe">
-          🤍
+          ❤️save
         </button>
       </div>
 

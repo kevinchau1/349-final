@@ -39,13 +39,6 @@ function CookingMode({ recipe, onExit }) {
         </span>
       </div>
 
-      <div className="cooking-progress-bar">
-        <div
-          className="cooking-progress-fill"
-          style={{ width: `${((step + 1) / total) * 100}%` }}
-        />
-      </div>
-
       <div className="cooking-step-box">
         <p>{recipe.steps[step]}</p>
       </div>
