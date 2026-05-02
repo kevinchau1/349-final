@@ -18,7 +18,7 @@
 .ingredient-input-row input {
   flex: 1;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc;
   border-radius: 5px;
   font-size: 14px;
 }
@@ -52,7 +52,7 @@
 
 .ingredient-tag-remove {
   cursor: pointer;
-  color: #999;
+  color: #999999;
   font-weight: bold;
 }
 
@@ -64,5 +64,5 @@
   border-radius: 4px;
   cursor: pointer;
   font-size: 12px;
-  color: #888;
+  color: #888888;
 }
